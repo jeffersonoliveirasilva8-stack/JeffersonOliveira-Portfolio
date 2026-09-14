@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jeffersonoliveira.vercel.app"),
   title: "Jefferson Oliveira — Designer Gráfico",
   description:
     "Portfólio de Jefferson Oliveira, Designer Gráfico com experiência em marcas de hospitalidade e alto padrão.",

@@ -1,0 +1,410 @@
+[
+  {
+    "slug": "portal-cliente-revise",
+    "titulo": "Portal do Cliente",
+    "tipo": "Profissional",
+    "cliente": "Revise Seu Plano",
+    "categorias": ["UI/UX", "Digital"],
+    "papel": "Design de Produto / UI/UX",
+    "destaque": true,
+    "ordemDestaque": 1,
+    "thumbnail": "/projects/portal-cliente-revise/capa-alt.jpg",
+    "imagemPrincipal": "/projects/portal-cliente-revise/capa-alt.jpg",
+    "prototipoEmbedUrl": "https://xd.adobe.com/embed/c172d8d9-62d0-4cdc-ac11-52ccf879508d-9421/",
+    "linkExterno": { "label": "Ver case completo no Behance", "url": "https://www.behance.net/gallery/236732303/Portal-do-Cliente-Revise-Seu-Plano-UXUI-Design" },
+    "contexto": "Portal de autoatendimento para clientes da Revise Seu Plano, reunindo em um único painel a gestão de contratos, financeiro e suporte — hoje resolvidos manualmente pela equipe de atendimento.",
+    "desenvolvimento": "Estruturação de 5 áreas principais — Home, Meus Contratos, Minhas Finanças, Abrir Chamado e Clube de Vantagens — cobrindo múltiplos produtos (seguro auto, saúde, vida, residencial, empresarial, consórcio). Inclui formulários dinâmicos de inclusão/exclusão de dependentes com upload de documentos e status de pendência, histórico financeiro com demonstrativo de coparticipação, e um programa de pontos com gamificação e resgate de benefícios.",
+    "galeriaAplicacoes": [
+      "/projects/portal-cliente-revise/historico-pontos.png",
+      "/projects/portal-cliente-revise/meus-contratos.png",
+      "/projects/portal-cliente-revise/minhas-financas.png",
+      "/projects/portal-cliente-revise/coparticipacao.png",
+      "/projects/portal-cliente-revise/inclusao-dependente.png",
+      "/projects/portal-cliente-revise/exclusao-titular.png",
+      "/projects/portal-cliente-revise/capa.png"
+    ]
+  },
+  {
+    "slug": "fazenda-boa-vista",
+    "titulo": "Fazenda Boa Vista",
+    "tipo": "Profissional",
+    "cliente": "Fazenda Boa Vista",
+    "categorias": ["Campanhas", "Social Media", "Design Gráfico"],
+    "papel": "Design Gráfico",
+    "destaque": true,
+    "ordemDestaque": 2,
+    "thumbnail": "/projects/fazenda-boa-vista/post-06.jpg",
+    "imagemPrincipal": "/projects/fazenda-boa-vista/post-06.jpg",
+    "contexto": "Posts institucionais para o perfil oficial da Fazenda Boa Vista — infraestrutura esportiva, paisagismo e experiências do resort. Desenvolvido na Animal Marketing Digital.",
+    "galeriaAplicacoes": [
+      "/projects/fazenda-boa-vista/post-01.jpg",
+      "/projects/fazenda-boa-vista/post-02.jpg",
+      "/projects/fazenda-boa-vista/post-03.jpg",
+      "/projects/fazenda-boa-vista/post-04.jpg",
+      "/projects/fazenda-boa-vista/post-05.jpg",
+      "/projects/fazenda-boa-vista/post-06.jpg",
+      "/projects/fazenda-boa-vista/post-07.jpg",
+      "/projects/fazenda-boa-vista/post-08.jpg",
+      "/projects/fazenda-boa-vista/post-09.jpg",
+      "/projects/fazenda-boa-vista/post-10.jpg",
+      "/projects/fazenda-boa-vista/post-11.jpg",
+      "/projects/fazenda-boa-vista/post-12.jpg",
+      "/projects/fazenda-boa-vista/post-13.jpg",
+      "/projects/fazenda-boa-vista/post-14.jpg",
+      "/projects/fazenda-boa-vista/post-15.jpg"
+    ]
+  },
+  {
+    "slug": "reserva-trancoso",
+    "titulo": "Reserva Trancoso",
+    "tipo": "Profissional",
+    "cliente": "Reserva Trancoso",
+    "categorias": ["Campanhas", "Social Media", "Design Gráfico"],
+    "papel": "Design Gráfico",
+    "destaque": true,
+    "ordemDestaque": 3,
+    "thumbnail": "/projects/reserva-trancoso/post-09.jpg",
+    "imagemPrincipal": "/projects/reserva-trancoso/post-09.jpg",
+    "contexto": "Posts para o perfil oficial do Reserva Trancoso — natureza local, villas e experiências do empreendimento. Desenvolvido na Animal Marketing Digital.",
+    "galeriaAplicacoes": [
+      "/projects/reserva-trancoso/post-01.jpg",
+      "/projects/reserva-trancoso/post-02.jpg",
+      "/projects/reserva-trancoso/post-03.jpg",
+      "/projects/reserva-trancoso/post-04.jpg",
+      "/projects/reserva-trancoso/post-05.jpg",
+      "/projects/reserva-trancoso/post-06.jpg",
+      "/projects/reserva-trancoso/post-07.jpg",
+      "/projects/reserva-trancoso/post-08.jpg",
+      "/projects/reserva-trancoso/post-09.jpg",
+      "/projects/reserva-trancoso/post-10.jpg"
+    ]
+  },
+  {
+    "slug": "catarina-aviation-show",
+    "titulo": "Catarina Aviation Show",
+    "tipo": "Profissional",
+    "cliente": "Catarina Aviation Show (JHSF)",
+    "categorias": ["Campanhas", "Social Media", "Design Gráfico"],
+    "papel": "Design Gráfico",
+    "destaque": true,
+    "ordemDestaque": 4,
+    "thumbnail": "/projects/catarina-aviation-show/capa-aeroporto.png",
+    "imagemPrincipal": "/projects/catarina-aviation-show/capa-aeroporto.png",
+    "contexto": "Posts para o perfil oficial do Catarina Aviation Show (JHSF) — expositores, contagem regressiva e cobertura das edições do evento. Desenvolvido na Animal Marketing Digital.",
+    "galeriaAplicacoes": [
+      "/projects/catarina-aviation-show/post-01.jpg",
+      "/projects/catarina-aviation-show/post-02.jpg",
+      "/projects/catarina-aviation-show/post-03.jpg",
+      "/projects/catarina-aviation-show/post-04.jpg",
+      "/projects/catarina-aviation-show/post-05.jpg",
+      "/projects/catarina-aviation-show/post-06.jpg",
+      "/projects/catarina-aviation-show/post-07.jpg",
+      "/projects/catarina-aviation-show/post-08.jpg",
+      "/projects/catarina-aviation-show/post-09.jpg",
+      "/projects/catarina-aviation-show/post-10.jpg",
+      "/projects/catarina-aviation-show/post-11.jpg",
+      "/projects/catarina-aviation-show/post-12.jpg",
+      "/projects/catarina-aviation-show/post-13.jpg",
+      "/projects/catarina-aviation-show/post-14.jpg",
+      "/projects/catarina-aviation-show/post-15.jpg",
+      "/projects/catarina-aviation-show/post-16.jpg",
+      "/projects/catarina-aviation-show/post-17.jpg",
+      "/projects/catarina-aviation-show/post-18.jpg",
+      "/projects/catarina-aviation-show/post-19.jpg",
+      "/projects/catarina-aviation-show/post-20.jpg",
+      "/projects/catarina-aviation-show/post-21.jpg",
+      "/projects/catarina-aviation-show/post-22.jpg",
+      "/projects/catarina-aviation-show/post-23.jpg"
+    ]
+  },
+  {
+    "slug": "engelux",
+    "titulo": "Engelux",
+    "tipo": "Profissional",
+    "cliente": "Engelux",
+    "categorias": ["Campanhas", "Social Media", "Design Gráfico"],
+    "papel": "Design Gráfico",
+    "destaque": false,
+    "thumbnail": "/projects/engelux/post-01.jpg",
+    "imagemPrincipal": "/projects/engelux/post-01.jpg",
+    "contexto": "Posts para o perfil oficial da Engelux — lançamentos imobiliários, dicas de decoração e conteúdo institucional da incorporadora. Desenvolvido na Animal Marketing Digital.",
+    "galeriaAplicacoes": [
+      "/projects/engelux/post-01.jpg",
+      "/projects/engelux/post-02.jpg",
+      "/projects/engelux/post-03.jpg",
+      "/projects/engelux/post-04.jpg",
+      "/projects/engelux/post-05.jpg",
+      "/projects/engelux/post-06.jpg",
+      "/projects/engelux/post-07.jpg",
+      "/projects/engelux/post-08.jpg",
+      "/projects/engelux/post-09.jpg",
+      "/projects/engelux/post-10.jpg",
+      "/projects/engelux/post-11.jpg",
+      "/projects/engelux/post-12.jpg",
+      "/projects/engelux/post-13.jpg",
+      "/projects/engelux/post-14.jpg",
+      "/projects/engelux/post-15.jpg",
+      "/projects/engelux/post-16.jpg",
+      "/projects/engelux/post-17.jpg"
+    ]
+  },
+  {
+    "slug": "revise-seu-plano-institucional",
+    "titulo": "Revise Seu Plano — Institucional",
+    "tipo": "Profissional",
+    "cliente": "Revise Seu Plano",
+    "categorias": ["Editorial", "Design Gráfico", "Motion"],
+    "papel": "Design Gráfico / Produção de Vídeo",
+    "destaque": true,
+    "ordemDestaque": 5,
+    "thumbnail": "/projects/clube-vantagens-livreto/video-institucional.mp4",
+    "imagemPrincipal": "/projects/clube-vantagens-livreto/video-institucional.mp4",
+    "contexto": "Vídeo institucional e livreto impresso para apresentar a Revise Seu Plano, o Portal do Cliente e o Clube de Vantagens — acompanhados de uma carteirinha física de acesso.",
+    "desenvolvimento": "Vídeo institucional de apresentação da marca, vídeo específico sobre o Clube de Vantagens, e peça impressa em formato livreto com carteirinha destacável para o cliente.",
+    "videosDestaque": [
+      {
+        "titulo": "Clube de Vantagens",
+        "descricao": "Vídeo institucional sobre o programa de pontos e benefícios da Revise Seu Plano.",
+        "src": "/projects/clube-vantagens-livreto/video-clube-vantagens.mp4"
+      }
+    ],
+    "grupos": [
+      {
+        "titulo": "Livreto Institucional",
+        "descricao": "Peça impressa entregue ao cliente, com carteirinha destacável de acesso ao Clube de Vantagens.",
+        "layout": "stack",
+        "itens": [
+          "/projects/clube-vantagens-livreto/livreto-01.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-02.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-03.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-04.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-05.jpeg",
+          "/projects/clube-vantagens-livreto/carteirinha-mockup.png"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "revise-site-institucional",
+    "titulo": "Revise Seu Plano — Site Institucional",
+    "tipo": "Profissional",
+    "cliente": "Revise Seu Plano",
+    "categorias": ["UI/UX", "Digital", "Design Gráfico"],
+    "papel": "Direção de Arte e Design",
+    "destaque": false,
+    "thumbnail": "/projects/revise-site-institucional/demo-site.mp4",
+    "imagemPrincipal": "/projects/revise-site-institucional/demo-site.mp4",
+    "contexto": "Site institucional da Revise Seu Plano, desenvolvido em parceria com a equipe da empresa. Ainda em ambiente de desenvolvimento local, não publicado — por isso apresentado aqui por meio de uma gravação de tela em funcionamento."
+  },
+  {
+    "slug": "revise-seu-plano-social",
+    "titulo": "Revise Seu Plano — Conteúdo para Redes Sociais",
+    "tipo": "Profissional",
+    "cliente": "Revise Seu Plano",
+    "categorias": ["Social Media", "Campanhas", "Design Gráfico", "Motion"],
+    "papel": "Design Gráfico / Produção de Vídeo",
+    "destaque": true,
+    "ordemDestaque": 6,
+    "thumbnail": "/projects/revise-seu-plano-social/capa.jpg",
+    "imagemPrincipal": "/projects/revise-seu-plano-social/capa.jpg",
+    "contexto": "Seleção de posts, carrosséis, criativos comerciais e vídeos para Reels desenvolvidos para a Revise Seu Plano, organizados por campanha/tema.",
+    "desenvolvimento": "Cobre desde campanhas comerciais de planos de saúde (Amil, Porto Saúde) até conteúdo institucional e sazonal para redes sociais, e vídeos de Reels sobre hospitais parceiros da rede credenciada.",
+    "grupos": [
+      {
+        "titulo": "Hospital São Luiz Alphaville",
+        "descricao": "Vídeo para Reels de uma visita ao Hospital São Luiz Alphaville, hospital parceiro da rede credenciada.",
+        "itens": ["/projects/hospital-sao-luiz-alphaville/visita-hospital.mp4"]
+      },
+      {
+        "titulo": "Hospital Samaritano",
+        "descricao": "Vídeo para Reels relacionado ao Hospital Samaritano, hospital parceiro da rede credenciada.",
+        "itens": ["/projects/hospital-samaritano/visita-hospital.mp4"]
+      },
+      {
+        "titulo": "Amil Platinum",
+        "descricao": "Campanha comercial para o plano Amil Platinum, com peças para feed e stories destacando atendimento em hospitais de referência, como o Hospital Sírio-Libanês.",
+        "itens": [
+          "/projects/campanha-amil-platinum/feed-01.png",
+          "/projects/campanha-amil-platinum/feed-02.png",
+          "/projects/campanha-amil-platinum/feed-03.png",
+          "/projects/campanha-amil-platinum/feed-04.png",
+          "/projects/campanha-amil-platinum/feed-05.png",
+          "/projects/campanha-amil-platinum/feed-06.png",
+          "/projects/campanha-amil-platinum/stories-01.png",
+          "/projects/campanha-amil-platinum/stories-02.png",
+          "/projects/campanha-amil-platinum/stories-03.png",
+          "/projects/campanha-amil-platinum/stories-04.png",
+          "/projects/campanha-amil-platinum/stories-05.png",
+          "/projects/campanha-amil-platinum/stories-06.png"
+        ]
+      },
+      {
+        "titulo": "Porto Saúde — Linha Bairros",
+        "descricao": "Criativo principal da oferta e tabela de valores replicada para múltiplas unidades e hospitais parceiros — Alphaville, Centro, Lapa, Moema, Morumbi, Osasco e Paulista — com um único template adaptado para 8 unidades diferentes.",
+        "itens": [
+          "/projects/porto-saude-linha-bairros/criativo-01.png",
+          "/projects/porto-saude-linha-bairros/criativo-02.png",
+          "/projects/porto-saude-linha-bairros/tabela-alphaville.png",
+          "/projects/porto-saude-linha-bairros/tabela-centro.png",
+          "/projects/porto-saude-linha-bairros/tabela-lapa.png",
+          "/projects/porto-saude-linha-bairros/tabela-moema.png",
+          "/projects/porto-saude-linha-bairros/tabela-morumbi.png",
+          "/projects/porto-saude-linha-bairros/tabela-morumbi-2.png",
+          "/projects/porto-saude-linha-bairros/tabela-osasco.png",
+          "/projects/porto-saude-linha-bairros/tabela-paulista.png",
+          "/projects/porto-saude-linha-bairros/porto-servico.mp4"
+        ]
+      },
+      {
+        "titulo": "Odontox Day",
+        "descricao": "Peça de campanha para o evento Odontox Day, oferta de plano odontológico via Porto Saúde.",
+        "itens": [
+          "/projects/odontox-day/slide-01.png",
+          "/projects/odontox-day/slide-02.png",
+          "/projects/odontox-day/slide-03.png",
+          "/projects/odontox-day/slide-04.png",
+          "/projects/odontox-day/slide-05.png"
+        ]
+      },
+      {
+        "titulo": "Revise 2025 — Retrospectiva",
+        "descricao": "Carrossel de encerramento de ano para redes sociais, com estética inspirada no formato \"retrospectiva anual\".",
+        "itens": [
+          "/projects/revise-2025-recap/slide-01.png",
+          "/projects/revise-2025-recap/slide-02.png",
+          "/projects/revise-2025-recap/slide-03.png",
+          "/projects/revise-2025-recap/slide-04.png",
+          "/projects/revise-2025-recap/slide-05.png"
+        ]
+      },
+      {
+        "titulo": "Sabe o Que Eles Têm em Comum?",
+        "descricao": "Carrossel institucional para redes sociais, usando situações do dia a dia como gancho para apresentar a consultoria da Revise Seu Plano.",
+        "itens": [
+          "/projects/sabe-o-que-eles-tem-em-comum/slide-01.png",
+          "/projects/sabe-o-que-eles-tem-em-comum/slide-02.png",
+          "/projects/sabe-o-que-eles-tem-em-comum/slide-03.png",
+          "/projects/sabe-o-que-eles-tem-em-comum/slide-04.png",
+          "/projects/sabe-o-que-eles-tem-em-comum/slide-05.png"
+        ]
+      },
+      {
+        "titulo": "Campanha Carnaval",
+        "descricao": "Série de vídeos para Reels sazonais de Carnaval.",
+        "itens": [
+          "/projects/campanha-carnaval/carnaval-01.mp4",
+          "/projects/campanha-carnaval/carnaval-02.mp4",
+          "/projects/campanha-carnaval/carnaval-03.mp4",
+          "/projects/campanha-carnaval/carnaval-04.mp4"
+        ]
+      },
+      {
+        "titulo": "BigPoc",
+        "descricao": "Vídeo para Reels divulgando o produto de um cliente parceiro e um cupom exclusivo para clientes da Revise Seu Plano.",
+        "itens": ["/projects/campanha-bigpoc/bigpoc.mp4"]
+      }
+    ]
+  },
+  {
+    "slug": "arkanjo-store",
+    "titulo": "Arkanjo Store",
+    "tipo": "Autoral",
+    "cliente": "Projeto próprio",
+    "categorias": ["Branding", "Direção de Arte", "Design Gráfico"],
+    "papel": "Fundador / Direção de Arte",
+    "destaque": true,
+    "ordemDestaque": 7,
+    "thumbnail": "/projects/arkanjo-store/capa-mao.jpg",
+    "imagemPrincipal": "/projects/arkanjo-store/capa-mao.jpg",
+    "linkExterno": { "label": "Visitar a loja", "url": "https://arkanjostore.com.br" },
+    "contexto": "Marca própria de moda com temática católica, com site próprio para orçamento e encomendas (arkanjostore.com.br). Produz camisetas personalizadas sob encomenda para encontros, retiros, paróquias, congressos e escolas — recebendo a ideia do cliente (tema, data, quantidade estimada), criando a arte com espaço para ajustes, cuidando da produção com fornecedores de confiança e entregando no prazo combinado.",
+    "desenvolvimento": "Identidade de marca e direção de arte da linha própria, além de estampas comissionadas para comunidades católicas — incluindo peças para a Paróquia Nossa Senhora Aparecida (Jandira), Primeira Eucaristia, Nossa Senhora de Fátima e Pascom.",
+    "galeriaAplicacoes": [
+      "/projects/arkanjo-store/camiseta-nossa-senhora-aparecida.webp",
+      "/projects/arkanjo-store/camiseta-primeira-eucaristia.webp",
+      "/projects/arkanjo-store/camiseta-fatima-costas.webp",
+      "/projects/arkanjo-store/camiseta-fatima-frente.webp",
+      "/projects/arkanjo-store/camiseta-pascom.webp",
+      "/projects/arkanjo-store/camiseta-sede-santos.webp",
+      "/projects/arkanjo-store/ig-DYSIJ4AEUdg-0.jpg",
+      "/projects/arkanjo-store/ig-DYSIJ4AEUdg-1.jpg",
+      "/projects/arkanjo-store/ig-DYSIJ4AEUdg-2.jpg",
+      "/projects/arkanjo-store/ig-DYSIJ4AEUdg-3.jpg",
+      "/projects/arkanjo-store/ig-DYSIJ4AEUdg-4.jpg",
+      "/projects/arkanjo-store/ig-DP6S-u_Eab_-0.jpg",
+      "/projects/arkanjo-store/ig-DNT78yRPqPW-0.jpg",
+      "/projects/arkanjo-store/ig-DLIx3o-v0b--0.jpg",
+      "/projects/arkanjo-store/ig-DLIx3o-v0b--1.jpg",
+      "/projects/arkanjo-store/ig-DLIx3o-v0b--2.jpg",
+      "/projects/arkanjo-store/ig-DLIx3o-v0b--3.jpg",
+      "/projects/arkanjo-store/ig-DKpAi48s2vM-0.jpg",
+      "/projects/arkanjo-store/ig-DJup2SoPCD5-0.jpg",
+      "/projects/arkanjo-store/ig-DJup2SoPCD5-1.jpg",
+      "/projects/arkanjo-store/ig-DJup2SoPCD5-2.jpg",
+      "/projects/arkanjo-store/ig-DJup2SoPCD5-3.jpg",
+      "/projects/arkanjo-store/ig-DJpJZDeRzd1-0.jpg",
+      "/projects/arkanjo-store/ig-DJpJZDeRzd1-1.jpg",
+      "/projects/arkanjo-store/ig-DJgzdtuROWt-0.jpg",
+      "/projects/arkanjo-store/ig-DJZhr8qxxay-0.jpg",
+      "/projects/arkanjo-store/ig-DJSlCV2pIl--0.jpg"
+    ]
+  },
+  {
+    "slug": "artes-igreja",
+    "titulo": "Comunicação para Grupos de Oração e Eventos Católicos",
+    "tipo": "Autoral",
+    "cliente": "Paróquia Rainha Santa Isabel",
+    "categorias": ["Design Gráfico", "Campanhas", "Editorial"],
+    "papel": "Design Gráfico",
+    "destaque": false,
+    "thumbnail": "/projects/artes-igreja/encontro-homens.webp",
+    "imagemPrincipal": "/projects/artes-igreja/encontro-homens.webp",
+    "contexto": "Peças gráficas para divulgação de eventos e grupos de oração ligados à Renovação Carismática Católica — Paróquia Rainha Santa Isabel e Comunidade São Paulo Apóstolo, em Barueri/SP e região.",
+    "grupos": [
+      {
+        "titulo": "Convites e Divulgação de Eventos",
+        "descricao": "Artes para retiros, cenáculos e encontros de grupos de oração como o Deus Trino.",
+        "itens": [
+          "/projects/artes-igreja/encontro-homens.webp",
+          "/projects/artes-igreja/retiro-familias-01.webp",
+          "/projects/artes-igreja/retiro-familias-02.webp",
+          "/projects/artes-igreja/deus-trino-familia.webp",
+          "/projects/artes-igreja/cerco-jerico-01.webp",
+          "/projects/artes-igreja/cerco-jerico-02.webp",
+          "/projects/artes-igreja/vigilia-pentecostes.jpg",
+          "/projects/artes-igreja/cenaculo-diocesano-2024.jpg",
+          "/projects/artes-igreja/deus-trino-familias-espirito.jpg",
+          "/projects/artes-igreja/deus-trino-fraqueza.jpg",
+          "/projects/artes-igreja/retiro-aprofundamento.jpg",
+          "/projects/artes-igreja/deus-trino-nao-sejas-incredulo.jpg"
+        ]
+      },
+      {
+        "titulo": "33º Cenáculo Diocesano 2025 — Cobertura",
+        "descricao": "Série de posts em formato colagem para registrar o evento nas redes sociais.",
+        "itens": [
+          "/projects/artes-igreja/cenaculo-2025-01.jpg",
+          "/projects/artes-igreja/cenaculo-2025-02.jpg",
+          "/projects/artes-igreja/cenaculo-2025-03.jpg",
+          "/projects/artes-igreja/cenaculo-2025-04.jpg",
+          "/projects/artes-igreja/cenaculo-2025-05.jpg",
+          "/projects/artes-igreja/cenaculo-2025-06.jpg",
+          "/projects/artes-igreja/cenaculo-2025-07.jpg",
+          "/projects/artes-igreja/cenaculo-2025-08.jpg",
+          "/projects/artes-igreja/cenaculo-2025-09.jpg",
+          "/projects/artes-igreja/cenaculo-2025-10.jpg",
+          "/projects/artes-igreja/cenaculo-2025-11.jpg",
+          "/projects/artes-igreja/cenaculo-2025-12.jpg",
+          "/projects/artes-igreja/cenaculo-2025-13.jpg",
+          "/projects/artes-igreja/cenaculo-2025-14.jpg",
+          "/projects/artes-igreja/cenaculo-2025-15.jpg",
+          "/projects/artes-igreja/cenaculo-2025-16.jpg",
+          "/projects/artes-igreja/cenaculo-2025-17.jpg",
+          "/projects/artes-igreja/cenaculo-2025-18.jpg",
+          "/projects/artes-igreja/cenaculo-2025-19.jpg",
+          "/projects/artes-igreja/cenaculo-2025-20.jpg"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "nome": "Jefferson Oliveira",
+  "titulo": "Designer Gráfico",
+  "heroTituloLinha1": "Designer",
+  "heroTituloLinha2": "Gráfico",
+  "foto": "/profile/jefferson.jpg",
+  "fraseHero": "Designer Gráfico com experiência em marcas de hospitalidade e alto padrão — JHSF, Fazenda Boa Vista e Reserva Trancoso — atuando entre design, comunicação e performance.",
+  "marcasHeroDestaque": ["JHSF", "Fazenda Boa Vista", "Reserva Trancoso"],
+  "fraseCurta": "Design que transforma ideias em comunicação visual clara, relevante e memorável.",
+  "bio": [
+    "Designer Gráfico, com mais de 4 anos de experiência entre agência, marketing digital e design de marca. Tenho conhecimento 360º de marketing digital — da criação de peças à gestão de tráfego pago — e hoje atuo na direção de arte e no design da marca na Revise Seu Plano.",
+    "Já atendi marcas de alto padrão em agência, como JHSF, Fazenda Boa Vista, Catarina Aviation Show, Reserva Trancoso e as incorporadoras Stan e Engelux, criando peças e conteúdo para redes sociais alinhados ao posicionamento de cada marca.",
+    "Em paralelo, atendo clientes como PJ e sou fundador da Arkanjo Store, marca própria de moda católica, onde cuido da criação de produto e da identidade da marca do zero.",
+    "Busco unir estética, consistência de marca e estratégia para gerar resultado real."
+  ],
+  "marcasAtendidas": [
+    { "nome": "JHSF", "logo": "/brands/jhsf.png" },
+    { "nome": "Fazenda Boa Vista", "logo": "/brands/fazenda-boa-vista-logo.png" },
+    { "nome": "Catarina Aviation Show", "logo": "/brands/catarina-aviation-show.png" },
+    { "nome": "Reserva Trancoso", "logo": "/brands/reserva-trancoso-logo.png" },
+    { "nome": "Stan", "logo": "/brands/stan-logo.png" },
+    { "nome": "Engelux", "logo": "/brands/engelux-logo.png" },
+    { "nome": "Revise Seu Plano", "logo": "/brands/revise-seu-plano.png" }
+  ],
+  "formacao": [
+    {
+      "instituicao": "Uninter — Universidade Internacional",
+      "curso": "Tecnólogo em Design Gráfico",
+      "periodo": "2024 — 2026"
+    },
+    {
+      "instituicao": "Fundação Instituto Educacional de Barueri (FIEB)",
+      "curso": "Técnico em Publicidade e Propaganda",
+      "periodo": "2020 — 2023"
+    }
+  ],
+  "ferramentas": ["Photoshop", "Illustrator", "Adobe XD", "Figma", "Premiere Pro", "Lightroom", "After Effects"],
+  "competenciasDesign": [
+    "Branding e Identidade Visual",
+    "Direção de Arte",
+    "Campanhas",
+    "Design Gráfico",
+    "Social Media",
+    "Design Digital",
+    "UI/UX",
+    "Editorial"
+  ],
+  "competenciasComplementares": [
+    "Marketing e Comunicação",
+    "Estratégia de Comunicação",
+    "Tráfego Pago (Meta Ads)",
+    "Gestão de Redes Sociais",
+    "Produção e Edição de Vídeo"
+  ],
+  "contato": {
+    "email": "jeff.osilva8@gmail.com",
+    "telefone": "(11) 97930-1639",
+    "localizacao": "Barueri, São Paulo",
+    "behance": "behance.net/ijeffersoon",
+    "linkedin": "",
+    "instagram": ""
+  }
+}

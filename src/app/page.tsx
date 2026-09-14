@@ -1,69 +1,113 @@
+import Link from "next/link";
 import Image from "next/image";
+import FadeIn from "@/components/FadeIn";
+import ProjectCard from "@/components/ProjectCard";
+import HighlightedText from "@/components/HighlightedText";
+import PortraitPlaceholder from "@/components/PortraitPlaceholder";
+import FeaturedProjectHero from "@/components/FeaturedProjectHero";
+import { getFeaturedProjects, getProfile } from "@/lib/content";
 
 export default function Home() {
+  const profile = getProfile();
+  const destaques = getFeaturedProjects();
+  const [primeiroDestaque, ...outrosDestaques] = destaques;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div>
+      <section className="mx-auto max-w-6xl px-6 md:px-10 pt-20 pb-20 md:pt-28 md:pb-28">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] items-center gap-y-8 lg:gap-x-10 xl:gap-x-14">
+          <FadeIn className="text-center lg:text-right">
+            <p className="text-sm uppercase tracking-[0.25em] text-muted mb-4 md:mb-6">
+              {profile.nome}
+            </p>
+            <h1 className="font-serif font-medium uppercase text-5xl sm:text-6xl lg:text-6xl xl:text-7xl leading-[0.95] tracking-tight text-fg">
+              {profile.heroTituloLinha1}
+            </h1>
+          </FadeIn>
+
+          <FadeIn delay={120} className="justify-self-center">
+            <PortraitPlaceholder foto={profile.foto} />
+          </FadeIn>
+
+          <FadeIn delay={60} className="text-center lg:text-left">
+            <h1 className="font-serif font-medium uppercase text-5xl sm:text-6xl lg:text-6xl xl:text-7xl leading-[0.95] tracking-tight text-fg">
+              {profile.heroTituloLinha2}
+            </h1>
+          </FadeIn>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+
+        <FadeIn delay={200}>
+          <p className="mt-10 md:mt-14 max-w-xl mx-auto text-center text-fg/75 leading-relaxed">
+            <HighlightedText
+              text={profile.fraseHero}
+              highlights={profile.marcasHeroDestaque}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+          </p>
+        </FadeIn>
+
+        <FadeIn delay={260}>
+          <div className="mt-10 flex flex-wrap justify-center gap-6 text-sm">
+            <Link
+              href="/projetos"
+              className="border-b border-fg pb-0.5 hover:border-accent hover:text-accent transition-colors"
+            >
+              Ver projetos
+            </Link>
+            <Link
+              href="/galeria"
+              className="border-b border-fg pb-0.5 hover:border-accent hover:text-accent transition-colors"
+            >
+              Ver galeria
+            </Link>
+          </div>
+        </FadeIn>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 md:px-10 pb-24">
+        <FadeIn>
+          <h2 className="font-serif text-2xl mb-10">Projetos em destaque</h2>
+        </FadeIn>
+
+        {primeiroDestaque && (
+          <FadeIn className="mb-14">
+            <FeaturedProjectHero projeto={primeiroDestaque} />
+          </FadeIn>
+        )}
+
+        {outrosDestaques.length > 0 && (
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-14">
+            {outrosDestaques.map((p, i) => (
+              <FadeIn key={p.slug} delay={i * 60}>
+                <ProjectCard projeto={p} />
+              </FadeIn>
+            ))}
+          </div>
+        )}
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 md:px-10 pb-28">
+        <FadeIn>
+          <p className="text-xs uppercase tracking-widest text-muted mb-8">
+            Marcas atendidas
+          </p>
+          <div className="flex flex-wrap items-center gap-x-10 gap-y-8">
+            {profile.marcasAtendidas.map((marca) => (
+              <div
+                key={marca.nome}
+                className="relative h-14 w-32 md:h-16 md:w-36"
+              >
+                <Image
+                  src={marca.logo}
+                  alt={marca.nome}
+                  fill
+                  sizes="144px"
+                  className="object-contain opacity-80 hover:opacity-100 transition-opacity"
+                />
+              </div>
+            ))}
+          </div>
+        </FadeIn>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "fazenda-boa-vista-post-03",
+    "titulo": "Fazenda Boa Vista — Post institucional",
+    "categoria": "Social Media",
+    "imagem": "/projects/fazenda-boa-vista/post-03.jpg",
+    "descricao": "Post para o perfil oficial da Fazenda Boa Vista.",
+    "destaque": false,
+    "projetoRelacionado": "fazenda-boa-vista"
+  },
+  {
+    "slug": "catarina-aviation-post-05",
+    "titulo": "Catarina Aviation Show — Post de campanha",
+    "categoria": "Campanhas",
+    "imagem": "/projects/catarina-aviation-show/post-05.jpg",
+    "descricao": "Post para o perfil oficial do Catarina Aviation Show (JHSF).",
+    "destaque": false,
+    "projetoRelacionado": "catarina-aviation-show"
+  },
+  {
+    "slug": "reserva-trancoso-post-03",
+    "titulo": "Reserva Trancoso — Post institucional",
+    "categoria": "Social Media",
+    "imagem": "/projects/reserva-trancoso/post-03.jpg",
+    "descricao": "Post para o perfil oficial do Reserva Trancoso.",
+    "destaque": false,
+    "projetoRelacionado": "reserva-trancoso"
+  },
+  {
+    "slug": "amil-platinum-feed-01",
+    "titulo": "Amil Platinum — Criativo de campanha",
+    "categoria": "Campanhas",
+    "imagem": "/projects/campanha-amil-platinum/feed-01.png",
+    "descricao": "Peça para feed da campanha comercial do plano Amil Platinum, Revise Seu Plano.",
+    "destaque": false,
+    "projetoRelacionado": "revise-seu-plano-social"
+  },
+  {
+    "slug": "cerco-jerico-flyer",
+    "titulo": "5º Cerco de Jericó — Convite",
+    "categoria": "Design Gráfico",
+    "imagem": "/projects/artes-igreja/cerco-jerico-01.webp",
+    "descricao": "Arte de divulgação para evento da Paróquia Rainha Santa Isabel.",
+    "destaque": false,
+    "projetoRelacionado": "artes-igreja"
+  },
+  {
+    "slug": "arkanjo-fatima-lancamento",
+    "titulo": "Arkanjo Store — Lançamento Fátima",
+    "categoria": "Branding",
+    "imagem": "/projects/arkanjo-store/ig-DYSIJ4AEUdg-0.jpg",
+    "descricao": "Post de lançamento da estampa Nossa Senhora de Fátima.",
+    "destaque": false,
+    "projetoRelacionado": "arkanjo-store"
+  }
+]

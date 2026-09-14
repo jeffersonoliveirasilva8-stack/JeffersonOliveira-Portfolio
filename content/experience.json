@@ -1,0 +1,75 @@
+[
+  {
+    "empresa": "Revise Seu Plano",
+    "tipo": "Corretora de Seguros",
+    "cargos": [
+      {
+        "cargo": "Estagiário Designer",
+        "periodo": "2022 — 2023",
+        "descricao": "Criação de conteúdo, gestão de redes sociais, endomarketing, produção audiovisual, elaboração de materiais institucionais e material para apresentação comercial.",
+        "projetosRelacionados": []
+      },
+      {
+        "cargo": "Marketing Digital",
+        "periodo": "2024 — 2025",
+        "descricao": "Atuação em diferentes e importantes frentes do marketing digital da empresa: criação de conteúdo, gestão de redes sociais, endomarketing, produção audiovisual, tráfego pago e captação de leads.",
+        "projetosRelacionados": []
+      },
+      {
+        "cargo": "Brand Designer",
+        "periodo": "2026 — Atual",
+        "descricao": "Responsável pela direção de arte e pelo design da marca da empresa. Atualmente à frente do rebranding da Revise Seu Plano, reposicionando a marca como uma consultoria focada no relacionamento contínuo e no atendimento personalizado ao cliente.",
+        "projetosRelacionados": ["portal-cliente-revise", "revise-seu-plano-institucional", "revise-seu-plano-social"]
+      }
+    ]
+  },
+  {
+    "empresa": "Freelancer (PJ)",
+    "tipo": "Design Gráfico e Gestão de Tráfego Pago",
+    "cargos": [
+      {
+        "cargo": "Atendimento independente a clientes",
+        "periodo": "[mês/ano] — Atual",
+        "descricao": "Criação de identidade visual, artes para redes sociais e campanhas de tráfego pago (Meta Ads), focadas em geração de leads e conversão.",
+        "projetosRelacionados": []
+      }
+    ]
+  },
+  {
+    "empresa": "Arkanjo Store",
+    "tipo": "Marca própria",
+    "cargos": [
+      {
+        "cargo": "Fundador e Responsável por Design & Marca",
+        "periodo": "[mês/ano] — Atual",
+        "descricao": "Marca própria de moda com temática católica, com site próprio para orçamento e encomendas. Responsável pela criação de produto e pela identidade visual da marca, do conceito à execução, com atuação também na área comercial.",
+        "projetosRelacionados": ["arkanjo-store"]
+      }
+    ]
+  },
+  {
+    "empresa": "Animal Marketing Digital",
+    "tipo": "Agência de Publicidade",
+    "cargos": [
+      {
+        "cargo": "Designer Gráfico",
+        "periodo": "2023 — 2024",
+        "descricao": "Criação de peças gráficas e conteúdo para redes sociais de marcas de alto padrão, incluindo JHSF, Fazenda Boa Vista, Catarina Aviation Show, Reserva Trancoso e as incorporadoras Stan e Engelux. Elaborando banners, books, reprints, posts e campanhas promocionais digitais e impressas, sempre alinhados ao posicionamento de cada marca.",
+        "projetosRelacionados": ["fazenda-boa-vista", "catarina-aviation-show", "reserva-trancoso", "engelux"],
+        "clientesDestaque": ["JHSF", "Fazenda Boa Vista", "Catarina Aviation Show", "Reserva Trancoso", "Stan", "Engelux"]
+      }
+    ]
+  },
+  {
+    "empresa": "Secretaria da Mulher",
+    "tipo": "Prefeitura de Barueri",
+    "cargos": [
+      {
+        "cargo": "Estagiário Designer",
+        "periodo": "2021 — 2022",
+        "descricao": "Gerenciamento do design da Secretaria da Mulher: materiais gráficos, identidades visuais, apostilas, flyers e conteúdo para redes sociais.",
+        "projetosRelacionados": []
+      }
+    ]
+  }
+]

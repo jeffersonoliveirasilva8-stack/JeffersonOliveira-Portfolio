@@ -91,7 +91,7 @@ export default function ProjectsGrid({
             Projetos Autorais
           </h2>
           <p className="text-sm text-muted mb-10 max-w-md">
-            Iniciativas próprias — repertório, direção criativa e capacidade de
+            Iniciativas próprias: repertório, direção criativa e capacidade de
             construir um projeto do zero.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10">

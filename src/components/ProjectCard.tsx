@@ -47,11 +47,23 @@ export default function ProjectCard({
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent" />
 
-        <div className={compact ? "absolute inset-x-0 bottom-0 p-4" : "absolute inset-x-0 bottom-0 p-5"}>
-          <span className="inline-block bg-accent text-bg text-xs uppercase tracking-widest px-2.5 py-1 rounded-full mb-2">
+        <div className={compact ? "absolute inset-x-0 bottom-0 p-3 sm:p-4" : "absolute inset-x-0 bottom-0 p-4 sm:p-5"}>
+          <span
+            className={
+              compact
+                ? "inline-block max-w-full truncate bg-accent text-bg text-[8px] sm:text-[10px] uppercase tracking-wide px-2 py-1 rounded-full mb-2"
+                : "inline-block max-w-full truncate bg-accent text-bg text-[10px] sm:text-xs uppercase tracking-wide px-2 sm:px-2.5 py-1 rounded-full mb-2"
+            }
+          >
             {categoria}
           </span>
-          <h3 className={compact ? "font-serif text-base text-white" : "font-serif text-xl text-white"}>
+          <h3
+            className={
+              compact
+                ? "font-serif text-sm sm:text-base text-white line-clamp-2"
+                : "font-serif text-base sm:text-xl text-white line-clamp-2"
+            }
+          >
             {projeto.titulo}
           </h3>
         </div>

@@ -87,8 +87,8 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-6 md:px-10 pb-28">
         <FadeIn>
-          <p className="text-xs uppercase tracking-widest text-muted mb-8">
-            Marcas atendidas
+          <p className="text-sm text-muted mb-8">
+            Experiência com marcas como
           </p>
           <div className="flex flex-wrap items-center gap-x-10 gap-y-8">
             {profile.marcasAtendidas.map((marca) => (

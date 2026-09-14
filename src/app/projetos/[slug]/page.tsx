@@ -4,6 +4,7 @@ import Link from "next/link";
 import PlaceholderBox from "@/components/PlaceholderBox";
 import FadeIn from "@/components/FadeIn";
 import ProjectGallery from "@/components/ProjectGallery";
+import ComputerMockup from "@/components/ComputerMockup";
 import { getProjectBySlug, getProjects, isVideo } from "@/lib/content";
 
 export async function generateStaticParams() {
@@ -44,6 +45,11 @@ export default async function ProjetoPage({
   const temGaleria =
     (projeto.grupos && projeto.grupos.length > 0) ||
     (projeto.galeriaAplicacoes && projeto.galeriaAplicacoes.length > 0);
+
+  const mockupComputador =
+    projeto.slug === "portal-cliente-revise" && projeto.galeriaAplicacoes
+      ? projeto.galeriaAplicacoes
+      : null;
 
   return (
     <div>
@@ -87,7 +93,7 @@ export default async function ProjetoPage({
             />
           </div>
           <p className="mt-3 text-xs text-muted text-center">
-            Protótipo interativo — clique para navegar pelas telas
+            Protótipo interativo: clique para navegar pelas telas
           </p>
         </div>
       )}
@@ -162,7 +168,14 @@ export default async function ProjetoPage({
         </div>
       )}
 
-      {temGaleria ? (
+      {mockupComputador ? (
+        <div className="mx-auto max-w-6xl px-6 md:px-10 pb-28">
+          <h2 className="text-sm uppercase tracking-widest text-muted mb-8 text-center">
+            Telas do projeto
+          </h2>
+          <ComputerMockup imagens={mockupComputador} titulo={projeto.titulo} />
+        </div>
+      ) : temGaleria ? (
         <div className="mx-auto max-w-6xl px-6 md:px-10 pb-28">
           <h2 className="text-sm uppercase tracking-widest text-muted mb-6">
             Aplicações

@@ -9,7 +9,7 @@ export default function FeaturedProjectHero({ projeto }: { projeto: Projeto }) {
 
   return (
     <Link href={`/projetos/${projeto.slug}`} className="group block">
-      <div className="relative aspect-[4/3] md:aspect-[21/9] w-full overflow-hidden rounded-2xl bg-surface">
+      <div className="relative aspect-[4/5] sm:aspect-[16/10] md:aspect-[21/9] w-full overflow-hidden rounded-2xl bg-surface">
         {capa ? (
           isVideo(capa) ? (
             <video
@@ -40,22 +40,28 @@ export default function FeaturedProjectHero({ projeto }: { projeto: Projeto }) {
           />
         )}
 
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent md:from-black/85 md:via-black/20" />
 
-        <div className="absolute inset-x-0 bottom-0 p-6 md:p-12 text-center">
-          <span className="inline-block bg-accent text-bg text-xs uppercase tracking-widest px-3 py-1 rounded-full mb-4">
+        <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6 md:p-12 text-center">
+          <span className="inline-block max-w-full truncate bg-accent text-bg text-[10px] sm:text-xs uppercase tracking-wide px-2.5 sm:px-3 py-1 rounded-full mb-3 md:mb-4">
             {categoria}
           </span>
-          <h3 className="font-serif text-3xl md:text-5xl text-white mb-3">
+          <h3 className="font-serif text-2xl sm:text-3xl md:text-5xl text-white mb-2 md:mb-3 line-clamp-2">
             {projeto.titulo}
           </h3>
           {projeto.contexto && (
-            <p className="text-sm md:text-base text-white/75 max-w-xl mx-auto">
+            <p className="hidden md:block text-sm md:text-base text-white/75 max-w-xl mx-auto">
               {projeto.contexto}
             </p>
           )}
         </div>
       </div>
+
+      {projeto.contexto && (
+        <p className="md:hidden mt-4 text-sm text-fg/70 leading-relaxed">
+          {projeto.contexto}
+        </p>
+      )}
     </Link>
   );
 }

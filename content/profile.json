@@ -4,23 +4,23 @@
   "heroTituloLinha1": "Designer",
   "heroTituloLinha2": "Gráfico",
   "foto": "/profile/jefferson.jpg",
-  "fraseHero": "Designer Gráfico com experiência em marcas de hospitalidade e alto padrão — JHSF, Fazenda Boa Vista e Reserva Trancoso — atuando entre design, comunicação e performance.",
-  "marcasHeroDestaque": ["JHSF", "Fazenda Boa Vista", "Reserva Trancoso"],
+  "fraseHero": "Designer Gráfico com experiência em marcas de hospitalidade e alto padrão, atuando entre design, comunicação e performance.",
+  "marcasHeroDestaque": [],
   "fraseCurta": "Design que transforma ideias em comunicação visual clara, relevante e memorável.",
   "bio": [
-    "Designer Gráfico, com mais de 4 anos de experiência entre agência, marketing digital e design de marca. Tenho conhecimento 360º de marketing digital — da criação de peças à gestão de tráfego pago — e hoje atuo na direção de arte e no design da marca na Revise Seu Plano.",
-    "Já atendi marcas de alto padrão em agência, como JHSF, Fazenda Boa Vista, Catarina Aviation Show, Reserva Trancoso e as incorporadoras Stan e Engelux, criando peças e conteúdo para redes sociais alinhados ao posicionamento de cada marca.",
+    "Designer Gráfico, com mais de 4 anos de experiência entre agência, marketing digital e design de marca. Tenho conhecimento amplo de marketing digital, da criação de peças à gestão de tráfego pago, e hoje atuo na direção de arte e no design da marca na Revise Seu Plano.",
+    "Experiência com marcas como JHSF, Fazenda Boa Vista, Catarina Aviation Show, Reserva Trancoso e as incorporadoras Stan e Engelux, através da agência onde trabalhei, criando peças e conteúdo para redes sociais dentro da identidade visual de cada marca.",
     "Em paralelo, atendo clientes como PJ e sou fundador da Arkanjo Store, marca própria de moda católica, onde cuido da criação de produto e da identidade da marca do zero.",
     "Busco unir estética, consistência de marca e estratégia para gerar resultado real."
   ],
   "marcasAtendidas": [
     { "nome": "JHSF", "logo": "/brands/jhsf.png" },
     { "nome": "Fazenda Boa Vista", "logo": "/brands/fazenda-boa-vista-logo.png" },
-    { "nome": "Catarina Aviation Show", "logo": "/brands/catarina-aviation-show.png" },
     { "nome": "Reserva Trancoso", "logo": "/brands/reserva-trancoso-logo.png" },
-    { "nome": "Stan", "logo": "/brands/stan-logo.png" },
+    { "nome": "Catarina Aviation Show", "logo": "/brands/catarina-aviation-show.png" },
+    { "nome": "Revise Seu Plano", "logo": "/brands/revise-seu-plano.png" },
     { "nome": "Engelux", "logo": "/brands/engelux-logo.png" },
-    { "nome": "Revise Seu Plano", "logo": "/brands/revise-seu-plano.png" }
+    { "nome": "Stan", "logo": "/brands/stan-logo.png" }
   ],
   "formacao": [
     {

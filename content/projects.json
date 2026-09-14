@@ -306,59 +306,93 @@
     ]
   },
   {
-    "slug": "freelance-identidade-visual",
-    "titulo": "Identidade Visual — Freelancer (PJ)",
+    "slug": "amora-velas-aromatizadas",
+    "titulo": "Amora — Velas Aromatizadas",
     "tipo": "Profissional",
-    "cliente": "Diversos clientes (PJ)",
+    "cliente": "Amora",
     "categorias": ["Identidade Visual", "Branding"],
     "papel": "Design Gráfico / Identidade Visual",
     "destaque": false,
-    "thumbnail": "/projects/freelance-identidade-visual/amora-01.jpg",
-    "imagemPrincipal": "/projects/freelance-identidade-visual/amora-01.jpg",
-    "contexto": "Trabalhos de identidade visual desenvolvidos como freelancer (PJ), para marcas e paróquias que buscavam uma comunicação visual própria: logotipo, paleta de cores e aplicações em produto e embalagem.",
+    "thumbnail": "/projects/amora-velas-aromatizadas/amora-01.jpg",
+    "imagemPrincipal": "/projects/amora-velas-aromatizadas/amora-01.jpg",
+    "contexto": "Identidade de marca desenvolvida como freelancer (PJ) para a Amora, marca de velas aromatizadas: logotipo, paleta de cores e aplicações em produto e embalagem.",
     "grupos": [
       {
-        "titulo": "Amora — Velas Aromatizadas",
-        "descricao": "Identidade de marca para uma marca de velas aromatizadas: logotipo, paleta de cores e aplicações em produto e embalagem.",
         "layout": "stack",
         "itens": [
-          "/projects/freelance-identidade-visual/amora-01.jpg",
-          "/projects/freelance-identidade-visual/amora-02.jpg",
-          "/projects/freelance-identidade-visual/amora-03.jpg",
-          "/projects/freelance-identidade-visual/amora-04.jpg",
-          "/projects/freelance-identidade-visual/amora-05.jpg"
+          "/projects/amora-velas-aromatizadas/amora-01.jpg",
+          "/projects/amora-velas-aromatizadas/amora-02.jpg",
+          "/projects/amora-velas-aromatizadas/amora-03.jpg",
+          "/projects/amora-velas-aromatizadas/amora-04.jpg",
+          "/projects/amora-velas-aromatizadas/amora-05.jpg"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "slug": "brasao-paroquia-cristo-rei",
+    "titulo": "Brasão — Paróquia Cristo Rei",
+    "tipo": "Profissional",
+    "cliente": "Paróquia Cristo Rei",
+    "categorias": ["Identidade Visual", "Branding"],
+    "papel": "Design Gráfico / Identidade Visual",
+    "destaque": false,
+    "thumbnail": "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-01.png",
+    "imagemPrincipal": "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-01.png",
+    "contexto": "Brasão eclesiástico desenvolvido como freelancer (PJ) para o Jubileu de 20 anos da Paróquia Cristo Rei.",
+    "grupos": [
       {
-        "titulo": "Brasão — Paróquia Cristo Rei",
-        "descricao": "Brasão eclesiástico desenvolvido para o Jubileu de 20 anos da Paróquia Cristo Rei.",
         "layout": "stack",
         "itens": [
-          "/projects/freelance-identidade-visual/brasao-cristo-rei-01.png",
-          "/projects/freelance-identidade-visual/brasao-cristo-rei-02.png",
-          "/projects/freelance-identidade-visual/brasao-cristo-rei-03.png"
+          "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-01.png",
+          "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-02.png",
+          "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-03.png"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "slug": "brasao-mae-da-igreja",
+    "titulo": "Brasão — Paróquia N. Sra. Mãe da Igreja",
+    "tipo": "Profissional",
+    "cliente": "Paróquia Nossa Senhora Mãe da Igreja",
+    "categorias": ["Identidade Visual", "Branding"],
+    "papel": "Design Gráfico / Identidade Visual",
+    "destaque": false,
+    "thumbnail": "/projects/brasao-mae-da-igreja/brasao-mae-igreja-01.jpg",
+    "imagemPrincipal": "/projects/brasao-mae-da-igreja/brasao-mae-igreja-01.jpg",
+    "contexto": "Brasão eclesiástico desenvolvido como freelancer (PJ) para o Jubileu de Ouro (50 anos) da Paróquia Nossa Senhora Mãe da Igreja, Diocese de Osasco.",
+    "grupos": [
       {
-        "titulo": "Brasão — Paróquia N. Sra. Mãe da Igreja",
-        "descricao": "Brasão eclesiástico desenvolvido para o Jubileu de Ouro (50 anos) da Paróquia Nossa Senhora Mãe da Igreja, Diocese de Osasco.",
         "layout": "stack",
         "itens": [
-          "/projects/freelance-identidade-visual/brasao-mae-igreja-01.jpg",
-          "/projects/freelance-identidade-visual/brasao-mae-igreja-02.jpg",
-          "/projects/freelance-identidade-visual/brasao-mae-igreja-03.jpg",
-          "/projects/freelance-identidade-visual/brasao-mae-igreja-04.jpg"
+          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-01.jpg",
+          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-02.jpg",
+          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-03.jpg",
+          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-04.jpg"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "slug": "chicmob-identidade-visual",
+    "titulo": "ChicMob — Identidade Visual",
+    "tipo": "Profissional",
+    "cliente": "ChicMob",
+    "categorias": ["Identidade Visual", "Branding"],
+    "papel": "Design Gráfico / Identidade Visual",
+    "destaque": false,
+    "thumbnail": "/projects/chicmob-identidade-visual/chicmob-01.jpg",
+    "imagemPrincipal": "/projects/chicmob-identidade-visual/chicmob-01.jpg",
+    "contexto": "Identidade visual desenvolvida como freelancer (PJ) para a ChicMob, loja de roupas femininas: logotipo, variações de cor e aplicações em etiqueta e sacola.",
+    "grupos": [
       {
-        "titulo": "ChicMob — Identidade Visual",
-        "descricao": "Identidade visual para uma loja de roupas femininas: logotipo, variações de cor e aplicações em etiqueta e sacola.",
         "layout": "stack",
         "itens": [
-          "/projects/freelance-identidade-visual/chicmob-01.jpg",
-          "/projects/freelance-identidade-visual/chicmob-02.jpg",
-          "/projects/freelance-identidade-visual/chicmob-03.jpg",
-          "/projects/freelance-identidade-visual/chicmob-04.jpg"
+          "/projects/chicmob-identidade-visual/chicmob-01.jpg",
+          "/projects/chicmob-identidade-visual/chicmob-02.jpg",
+          "/projects/chicmob-identidade-visual/chicmob-03.jpg",
+          "/projects/chicmob-identidade-visual/chicmob-04.jpg"
         ]
       }
     ]

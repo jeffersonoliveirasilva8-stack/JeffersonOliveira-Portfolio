@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { isVideo } from "@/lib/content";
 
-type Grupo = { titulo?: string; descricao?: string; itens: string[]; layout?: "masonry" | "stack" };
+type Grupo = { titulo?: string; descricao?: string; itens: string[]; layout?: "masonry" | "stack" | "full" };
 
 export default function ProjectGallery({
   titulo,
@@ -48,7 +48,9 @@ export default function ProjectGallery({
           )}
           <div
             className={
-              grupo.layout === "stack"
+              grupo.layout === "full"
+                ? "flex flex-col gap-4"
+                : grupo.layout === "stack"
                 ? "flex flex-col gap-4 max-w-2xl"
                 : "columns-2 md:columns-3 gap-4 [column-fill:_balance]"
             }
@@ -61,7 +63,7 @@ export default function ProjectGallery({
                   type="button"
                   onClick={() => setAberto(indiceGlobal)}
                   className={
-                    grupo.layout === "stack"
+                    grupo.layout === "stack" || grupo.layout === "full"
                       ? "block w-full overflow-hidden rounded-2xl bg-surface"
                       : "mb-4 block w-full break-inside-avoid overflow-hidden rounded-2xl bg-surface"
                   }

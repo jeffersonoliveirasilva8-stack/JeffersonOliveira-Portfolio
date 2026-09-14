@@ -33,7 +33,6 @@ Tudo fica em `/content`:
 | `content/profile.json` | Nome, bio, formação, ferramentas, competências, contato | Home, Sobre, Contato, rodapé |
 | `content/experience.json` | Empresas, cargos e períodos | /experiencia |
 | `content/projects.json` | Cases completos | /projetos e /projetos/[slug] |
-| `content/materials.json` | Peças avulsas da galeria | /galeria |
 
 ### Adicionar um novo projeto (case)
 
@@ -82,7 +81,7 @@ para um cliente recorrente), use `grupos` em vez de `galeriaAplicacoes`:
 ]
 ```
 
-Cada grupo vira uma seção com título dentro de "Aplicações". Por padrão a
+Cada grupo vira uma seção com título dentro de "Material". Por padrão a
 galeria (tanto `grupos` quanto `galeriaAplicacoes`) é renderizada em mosaico
 (masonry) — cada imagem/vídeo mantém sua proporção natural, sem cortar
 conteúdo — e é clicável: abre em tela cheia com navegação anterior/próxima.
@@ -108,7 +107,7 @@ só como thumbnail de mosaico), use `videosDestaque` no nível do projeto:
 ```
 
 Cada item vira um bloco de vídeo em largura total, com reprodução automática,
-entre os textos do case e a seção "Aplicações". Use isso para vídeos que
+entre os textos do case e a seção "Material". Use isso para vídeos que
 merecem o mesmo destaque do vídeo principal do case, mas sem substituí-lo —
 veja `revise-seu-plano-institucional` como exemplo (vídeo institucional como
 `imagemPrincipal`, vídeo do Clube de Vantagens via `videosDestaque`).
@@ -152,29 +151,29 @@ quantas categorias fizerem sentido.
 - `destaque: true` faz o projeto concorrer a um lugar na Home.
 - `ordemDestaque`: número que define a ordem entre os destaques na Home
   (menor aparece primeiro). Sem esse campo, o projeto entra por último.
-  **A Home mostra no máximo 6 projetos em destaque** — isso é proposital
+  **A Home mostra no máximo 7 projetos em destaque** — isso é proposital
   (curadoria: veja a seção abaixo).
 - Remova o campo `pendente` quando o case estiver completo (ele só existe
   para sinalizar visualmente que o conteúdo ainda é placeholder — inclusive
-  escondendo a seção "Aplicações" até você ter imagens reais).
+  escondendo a seção "Material" até você ter imagens reais).
 
-### Adicionar um material à Galeria
+### Peça única, sem fragmentar em várias imagens
 
-Adicione um objeto em `content/materials.json` — não precisa da estrutura
-completa de um case, só imagem + título + categoria (+ descrição opcional):
+Quando um projeto é uma peça só (um brandbook, um brasão, uma apresentação em
+scroll único), não fragmente em vários itens. Junte tudo em uma única imagem
+(`convert img1.jpg img2.jpg img3.jpg -append completo.jpg` no ImageMagick) e
+use `"layout": "full"` no grupo, com um único item:
 
 ```json
-{
-  "slug": "post-campanha-x",
-  "titulo": "Campanha X — Post",
-  "categoria": "Social Media",
-  "imagem": "/materials/post-campanha-x.jpg",
-  "descricao": "",
-  "ano": "2026",
-  "destaque": false,
-  "projetoRelacionado": "nome-do-projeto"
-}
+"grupos": [
+  { "layout": "full", "itens": ["/projects/slug/peca-completa.jpg"] }
+]
 ```
+
+`"full"` renderiza a imagem em largura total, sem o teto de `max-w-2xl` do
+`"stack"` — pensado para uma peça só que precisa ficar legível sem precisar
+abrir em tela cheia. Veja `amora-velas-aromatizadas`, `chicmob-identidade-visual`
+e os dois brasões em `content/projects.json` como exemplo.
 
 ### Adicionar sua foto no hero da Home
 
@@ -205,12 +204,12 @@ primeiro) para que a progressão fique legível de cima para baixo.
 
 ## Curadoria — como pensar antes de marcar `destaque`
 
-A Home é a primeira impressão e só mostra até 6 projetos em destaque. Antes
+A Home é a primeira impressão e só mostra até 7 projetos em destaque. Antes
 de marcar um projeto novo como `destaque: true`, pergunte: *um recrutador
 que veja só este trabalho já entende meu nível?* Prefira:
 
 1. Projetos profissionais com resultado visual forte antes de projetos autorais.
-2. Poucos e fortes — 4 a 6 — em vez de mostrar tudo que existe no sistema.
+2. Poucos e fortes — 4 a 7 — em vez de mostrar tudo que existe no sistema.
 3. `ordemDestaque` baixo para os cases mais relevantes à vaga que você está
    almejando no momento (hoje: hospitalidade/alto padrão).
 
@@ -219,8 +218,6 @@ só não compete pela atenção na Home.
 
 ## Pendências conhecidas (marcadas no conteúdo)
 
-- Datas exatas de cada cargo em `content/experience.json` (hoje como
-  `[mês/ano]`).
 - Confirmar e-mail público de contato em `content/profile.json` e, se
   fizer sentido, preencher `linkedin`/`instagram`.
 - Publicar o site institucional da Revise (`revise-site-institucional`) e

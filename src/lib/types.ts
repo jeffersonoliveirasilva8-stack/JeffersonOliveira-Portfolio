@@ -38,7 +38,7 @@ export type Projeto = {
   desenvolvimento?: string;
   solucao?: string;
   galeriaAplicacoes?: string[];
-  grupos?: { titulo?: string; descricao?: string; itens: string[]; layout?: "masonry" | "stack" }[];
+  grupos?: { titulo?: string; descricao?: string; itens: string[]; layout?: "masonry" | "stack" | "full" }[];
   videosDestaque?: { titulo?: string; descricao?: string; src: string }[];
   resultado?: string;
   creditos?: string;

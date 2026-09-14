@@ -1,10 +1,10 @@
 import Link from "next/link";
-import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import ProjectCard from "@/components/ProjectCard";
 import HighlightedText from "@/components/HighlightedText";
 import PortraitPlaceholder from "@/components/PortraitPlaceholder";
 import FeaturedProjectHero from "@/components/FeaturedProjectHero";
+import LogoMarquee from "@/components/LogoMarquee";
 import { getFeaturedProjects, getProfile } from "@/lib/content";
 
 export default function Home() {
@@ -69,7 +69,7 @@ export default function Home() {
         )}
 
         {outrosDestaques.length > 0 && (
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-14">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-14">
             {outrosDestaques.map((p, i) => (
               <FadeIn key={p.slug} delay={i * 60}>
                 <ProjectCard projeto={p} />
@@ -79,27 +79,12 @@ export default function Home() {
         )}
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 md:px-10 pb-28">
+      <section className="pb-28">
         <FadeIn>
-          <p className="text-sm text-muted mb-8">
+          <p className="mx-auto max-w-6xl px-6 md:px-10 text-sm text-muted mb-8">
             Experiência com marcas como
           </p>
-          <div className="flex flex-wrap items-center gap-x-10 gap-y-8">
-            {profile.marcasAtendidas.map((marca) => (
-              <div
-                key={marca.nome}
-                className="relative h-14 w-32 md:h-16 md:w-36"
-              >
-                <Image
-                  src={marca.logo}
-                  alt={marca.nome}
-                  fill
-                  sizes="144px"
-                  className="object-contain opacity-80 hover:opacity-100 transition-opacity"
-                />
-              </div>
-            ))}
-          </div>
+          <LogoMarquee marcas={profile.marcasAtendidas} />
         </FadeIn>
       </section>
     </div>

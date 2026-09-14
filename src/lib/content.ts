@@ -26,7 +26,7 @@ export function getProjects(): Projeto[] {
   return projectsData as Projeto[];
 }
 
-const MAX_FEATURED_HOME = 6;
+const MAX_FEATURED_HOME = 7;
 
 export function getFeaturedProjects(): Projeto[] {
   return getProjects()

@@ -156,7 +156,7 @@
     "papel": "Design Gráfico / Produção de Vídeo",
     "destaque": true,
     "ordemDestaque": 5,
-    "thumbnail": "/projects/clube-vantagens-livreto/video-institucional.mp4",
+    "thumbnail": "/projects/clube-vantagens-livreto/cartao-clube-vantagens.webp",
     "imagemPrincipal": "/projects/clube-vantagens-livreto/video-institucional.mp4",
     "contexto": "Vídeo institucional e livreto impresso para apresentar a Revise Seu Plano, o Portal do Cliente e o Clube de Vantagens, acompanhados de uma carteirinha física de acesso.",
     "desenvolvimento": "Vídeo institucional de apresentação da marca, vídeo específico sobre o Clube de Vantagens, e peça impressa em formato livreto com carteirinha destacável para o cliente.",
@@ -314,18 +314,11 @@
     "papel": "Design Gráfico / Identidade Visual",
     "destaque": false,
     "thumbnail": "/projects/amora-velas-aromatizadas/amora-01.jpg",
-    "imagemPrincipal": "/projects/amora-velas-aromatizadas/amora-01.jpg",
     "contexto": "Identidade de marca desenvolvida como freelancer (PJ) para a Amora, marca de velas aromatizadas: logotipo, paleta de cores e aplicações em produto e embalagem.",
     "grupos": [
       {
-        "layout": "stack",
-        "itens": [
-          "/projects/amora-velas-aromatizadas/amora-01.jpg",
-          "/projects/amora-velas-aromatizadas/amora-02.jpg",
-          "/projects/amora-velas-aromatizadas/amora-03.jpg",
-          "/projects/amora-velas-aromatizadas/amora-04.jpg",
-          "/projects/amora-velas-aromatizadas/amora-05.jpg"
-        ]
+        "layout": "full",
+        "itens": ["/projects/amora-velas-aromatizadas/amora-completo.jpg"]
       }
     ]
   },
@@ -338,16 +331,11 @@
     "papel": "Design Gráfico / Identidade Visual",
     "destaque": false,
     "thumbnail": "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-01.png",
-    "imagemPrincipal": "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-01.png",
     "contexto": "Brasão eclesiástico desenvolvido como freelancer (PJ) para o Jubileu de 20 anos da Paróquia Cristo Rei.",
     "grupos": [
       {
-        "layout": "stack",
-        "itens": [
-          "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-01.png",
-          "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-02.png",
-          "/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-03.png"
-        ]
+        "layout": "full",
+        "itens": ["/projects/brasao-paroquia-cristo-rei/brasao-cristo-rei-completo.jpg"]
       }
     ]
   },
@@ -360,17 +348,11 @@
     "papel": "Design Gráfico / Identidade Visual",
     "destaque": false,
     "thumbnail": "/projects/brasao-mae-da-igreja/brasao-mae-igreja-01.jpg",
-    "imagemPrincipal": "/projects/brasao-mae-da-igreja/brasao-mae-igreja-01.jpg",
     "contexto": "Brasão eclesiástico desenvolvido como freelancer (PJ) para o Jubileu de Ouro (50 anos) da Paróquia Nossa Senhora Mãe da Igreja, Diocese de Osasco.",
     "grupos": [
       {
-        "layout": "stack",
-        "itens": [
-          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-01.jpg",
-          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-02.jpg",
-          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-03.jpg",
-          "/projects/brasao-mae-da-igreja/brasao-mae-igreja-04.jpg"
-        ]
+        "layout": "full",
+        "itens": ["/projects/brasao-mae-da-igreja/brasao-mae-igreja-completo.jpg"]
       }
     ]
   },
@@ -383,17 +365,11 @@
     "papel": "Design Gráfico / Identidade Visual",
     "destaque": false,
     "thumbnail": "/projects/chicmob-identidade-visual/chicmob-01.jpg",
-    "imagemPrincipal": "/projects/chicmob-identidade-visual/chicmob-01.jpg",
     "contexto": "Identidade visual desenvolvida como freelancer (PJ) para a ChicMob, loja de roupas femininas: logotipo, variações de cor e aplicações em etiqueta e sacola.",
     "grupos": [
       {
-        "layout": "stack",
-        "itens": [
-          "/projects/chicmob-identidade-visual/chicmob-01.jpg",
-          "/projects/chicmob-identidade-visual/chicmob-02.jpg",
-          "/projects/chicmob-identidade-visual/chicmob-03.jpg",
-          "/projects/chicmob-identidade-visual/chicmob-04.jpg"
-        ]
+        "layout": "full",
+        "itens": ["/projects/chicmob-identidade-visual/chicmob-completo.jpg"]
       }
     ]
   },

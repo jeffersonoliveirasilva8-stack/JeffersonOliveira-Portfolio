@@ -98,38 +98,42 @@ export default async function ProjetoPage({
         </div>
       )}
 
-      {!projeto.prototipoEmbedUrl && (
+      {!projeto.prototipoEmbedUrl && projeto.imagemPrincipal && (
         <div className="mx-auto max-w-6xl px-6 md:px-10">
-          {projeto.imagemPrincipal ? (
-            isVideo(projeto.imagemPrincipal) ? (
-              <div className="w-full aspect-video overflow-hidden rounded-2xl bg-surface">
-                <video
-                  src={projeto.imagemPrincipal}
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  controls
-                  preload="auto"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            ) : (
-              <div className="w-full aspect-video overflow-hidden rounded-2xl bg-surface">
-                <Image
-                  src={projeto.imagemPrincipal}
-                  alt={projeto.titulo}
-                  width={1600}
-                  height={900}
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-            )
+          {isVideo(projeto.imagemPrincipal) ? (
+            <div className="w-full aspect-video overflow-hidden rounded-2xl bg-surface">
+              <video
+                src={projeto.imagemPrincipal}
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                preload="auto"
+                className="w-full h-full object-cover"
+              />
+            </div>
           ) : (
-            <PlaceholderBox label="Imagem principal a inserir" aspect="aspect-video" />
+            <div className="w-full aspect-video overflow-hidden rounded-2xl bg-surface">
+              <Image
+                src={projeto.imagemPrincipal}
+                alt={projeto.titulo}
+                width={1600}
+                height={900}
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
           )}
         </div>
       )}
+      {!projeto.prototipoEmbedUrl &&
+        !projeto.imagemPrincipal &&
+        !temGaleria &&
+        projeto.pendente && (
+          <div className="mx-auto max-w-6xl px-6 md:px-10">
+            <PlaceholderBox label="Imagem principal a inserir" aspect="aspect-video" />
+          </div>
+        )}
 
       <div className="mx-auto max-w-6xl px-6 md:px-10 pb-16">
         <Block titulo="Contexto" texto={projeto.contexto} />
@@ -178,7 +182,7 @@ export default async function ProjetoPage({
       ) : temGaleria ? (
         <div className="mx-auto max-w-6xl px-6 md:px-10 pb-28">
           <h2 className="text-sm uppercase tracking-widest text-muted mb-6">
-            Aplicações
+            Material
           </h2>
           <ProjectGallery
             titulo={projeto.titulo}
@@ -189,9 +193,9 @@ export default async function ProjetoPage({
       ) : projeto.pendente ? (
         <div className="mx-auto max-w-6xl px-6 md:px-10 pb-28">
           <h2 className="text-sm uppercase tracking-widest text-muted mb-6">
-            Aplicações
+            Material
           </h2>
-          <PlaceholderBox label="Galeria de aplicações a inserir" />
+          <PlaceholderBox label="Material a inserir" />
         </div>
       ) : null}
     </div>

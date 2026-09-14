@@ -1,8 +1,7 @@
 import profileData from "../../content/profile.json";
 import experienceData from "../../content/experience.json";
 import projectsData from "../../content/projects.json";
-import materialsData from "../../content/materials.json";
-import type { Experiencia, Material, Perfil, Projeto } from "./types";
+import type { Experiencia, Perfil, Projeto } from "./types";
 
 export function getProfile(): Perfil {
   return profileData as Perfil;
@@ -46,10 +45,6 @@ export function getAuthorialProjects(): Projeto[] {
 
 export function getProjectBySlug(slug: string): Projeto | undefined {
   return getProjects().find((p) => p.slug === slug);
-}
-
-export function getMaterials(): Material[] {
-  return materialsData as Material[];
 }
 
 export function isVideo(path?: string): boolean {

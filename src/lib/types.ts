@@ -45,18 +45,6 @@ export type Projeto = {
   pendente?: boolean;
 };
 
-export type Material = {
-  slug: string;
-  titulo: string;
-  categoria: Categoria;
-  imagem?: string;
-  descricao?: string;
-  ano?: string;
-  destaque: boolean;
-  projetoRelacionado?: string;
-  pendente?: boolean;
-};
-
 export type Cargo = {
   cargo: string;
   periodo: string;

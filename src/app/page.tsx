@@ -53,12 +53,6 @@ export default function Home() {
             >
               Ver projetos
             </Link>
-            <Link
-              href="/galeria"
-              className="border-b border-fg pb-0.5 hover:border-accent hover:text-accent transition-colors"
-            >
-              Ver galeria
-            </Link>
           </div>
         </FadeIn>
       </section>

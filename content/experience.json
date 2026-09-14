@@ -17,7 +17,7 @@
       },
       {
         "cargo": "Brand Designer",
-        "periodo": "2026 — Atual",
+        "periodo": "2024 — Atual",
         "descricao": "Responsável pela direção de arte e pelo design da marca da empresa. Atualmente à frente do rebranding da Revise Seu Plano, reposicionando a marca como uma consultoria focada no relacionamento contínuo e no atendimento personalizado ao cliente.",
         "projetosRelacionados": ["portal-cliente-revise", "revise-seu-plano-institucional", "revise-seu-plano-social"]
       }
@@ -29,9 +29,9 @@
     "cargos": [
       {
         "cargo": "Atendimento independente a clientes",
-        "periodo": "[mês/ano] — Atual",
+        "periodo": "2023 — Atual",
         "descricao": "Criação de identidade visual, artes para redes sociais e campanhas de tráfego pago (Meta Ads), focadas em geração de leads e conversão.",
-        "projetosRelacionados": []
+        "projetosRelacionados": ["freelance-identidade-visual"]
       }
     ]
   },
@@ -41,8 +41,8 @@
     "cargos": [
       {
         "cargo": "Fundador e Responsável por Design & Marca",
-        "periodo": "[mês/ano] — Atual",
-        "descricao": "Marca própria de moda com temática católica, com site próprio para orçamento e encomendas. Responsável pela criação de produto e pela identidade visual da marca, com atuação também na área comercial.",
+        "periodo": "2024 — Atual",
+        "descricao": "Marca criada para desenvolver identidade visual de eventos católicos em camisetas personalizadas, cuidando de cada etapa: desenvolvimento da ideia, criação da arte, confecção e entrega ao cliente. Site próprio para orçamento e encomendas.",
         "projetosRelacionados": ["arkanjo-store"]
       }
     ]

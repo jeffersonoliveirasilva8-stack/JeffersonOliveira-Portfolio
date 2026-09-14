@@ -39,7 +39,7 @@ export default function SobrePage() {
 
           <div className="grid grid-cols-3 gap-6 max-w-md pt-8 border-t border-border">
             <div>
-              <p className="font-serif text-3xl md:text-4xl text-accent">4+</p>
+              <p className="font-serif text-3xl md:text-4xl text-accent">5+</p>
               <p className="text-xs text-muted uppercase tracking-widest mt-1">
                 Anos de experiência
               </p>

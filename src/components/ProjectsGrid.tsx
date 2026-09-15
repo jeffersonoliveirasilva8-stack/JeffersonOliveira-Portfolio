@@ -29,6 +29,7 @@ const CATEGORIA_PARA_FILTRO: Record<Categoria, Filtro> = {
   "Design Gráfico": "Design Gráfico",
   Motion: "Digital",
   Digital: "Digital",
+  "Direção de Arte": "Design Gráfico",
   Outros: "Design Gráfico",
 };
 

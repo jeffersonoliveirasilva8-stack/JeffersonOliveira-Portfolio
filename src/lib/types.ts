@@ -14,6 +14,7 @@ export const CATEGORIAS = [
   "Design Gráfico",
   "Motion",
   "Digital",
+  "Direção de Arte",
   "Outros",
 ] as const;
 

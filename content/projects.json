@@ -292,6 +292,59 @@
     ]
   },
   {
+    "slug": "revise-identidade-visual",
+    "titulo": "Revise — Identidade Visual",
+    "tipo": "Profissional",
+    "cliente": "Revise Seu Plano",
+    "categorias": ["Identidade Visual", "Branding", "Design Gráfico", "Direção de Arte"],
+    "papel": "Designer Gráfico / Direção de Arte",
+    "destaque": false,
+    "thumbnail": "/projects/revise-identidade-visual/aplicacao-sinalizacao.jpg",
+    "contexto": "A Revise Seu Plano passou por um momento de reposicionamento, deixando de ser vista apenas como corretora de planos de saúde para se apresentar como consultoria de proteção, saúde e cuidado contínuo. Essa mudança pediu uma identidade visual nova, capaz de acompanhar o novo momento da marca.",
+    "desenvolvimento": "Idealizei e desenvolvi sozinho quatro caminhos conceituais para a nova identidade, cada um partindo de um símbolo e um significado diferente. A direção aprovada uniu duas ideias num traço só: a letra \"r\" de Revise e um símbolo de infinito, juntando reconhecimento de marca à ideia de cuidado contínuo, sem interrupção.",
+    "solucao": "A partir desse símbolo, construí o restante do sistema seguindo os mesmos princípios: curvas no lugar de ângulos, um traço único sem interrupções, o nome sempre em minúsculas e uma só faixa de azul como cor de marca. Esses princípios guiam o símbolo, o logotipo, o padrão gráfico e as aplicações em uniformes, embalagens e ambientes.",
+    "resultado": "A identidade foi aprovada e já está em uso em materiais reais da Revise, incluindo o livreto institucional entregue ao cliente e a carteirinha do Clube de Vantagens — peças que também aparecem completas no case Revise Seu Plano — Institucional.",
+    "grupos": [
+      {
+        "titulo": "Exploração",
+        "descricao": "Princípios definidos antes de partir para os símbolos, e as quatro propostas conceituais desenvolvidas a partir deles.",
+        "layout": "stack",
+        "itens": [
+          "/projects/revise-identidade-visual/fundamentos-visuais.jpg",
+          "/projects/revise-identidade-visual/decisao-conceitos.jpg"
+        ]
+      },
+      {
+        "titulo": "Direção escolhida",
+        "descricao": "O símbolo aprovado: um traço só formando a letra \"r\" e um infinito ao mesmo tempo.",
+        "layout": "full",
+        "itens": ["/projects/revise-identidade-visual/simbolo-r-infinito.jpg"]
+      },
+      {
+        "titulo": "Construção da identidade",
+        "descricao": "Símbolo, logotipo, padrão gráfico e primeiras aplicações construídos a partir dos mesmos princípios.",
+        "layout": "full",
+        "itens": ["/projects/revise-identidade-visual/construcao-identidade.jpg"]
+      },
+      {
+        "titulo": "Aplicações propostas",
+        "descricao": "Simulações de sinalização e embalagem apresentadas junto da proposta aprovada.",
+        "itens": [
+          "/projects/revise-identidade-visual/aplicacao-sinalizacao.jpg",
+          "/projects/revise-identidade-visual/aplicacao-embalagem.jpg"
+        ]
+      },
+      {
+        "titulo": "Aplicação real",
+        "descricao": "A mesma identidade já em uso na carteirinha e no livreto do Clube de Vantagens da Revise.",
+        "itens": [
+          "/projects/clube-vantagens-livreto/cartao-clube-vantagens.webp",
+          "/projects/clube-vantagens-livreto/livreto-01.jpeg"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "amora-velas-aromatizadas",
     "titulo": "Amora — Velas Aromatizadas",
     "tipo": "Profissional",

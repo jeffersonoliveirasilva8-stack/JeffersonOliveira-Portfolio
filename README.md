@@ -90,8 +90,8 @@ Veja `revise-seu-plano-social` em `content/projects.json` como exemplo real.
 Quando um grupo reúne poucas peças que fazem mais sentido lidas em sequência
 (ex.: as páginas de um livreto/folheto), adicione `"layout": "stack"` nesse
 grupo — em vez de mosaico, as imagens aparecem uma embaixo da outra, em
-largura maior, na mesma ordem do array. Veja o grupo "Livreto Institucional"
-em `revise-seu-plano-institucional` como exemplo.
+largura maior, na mesma ordem do array. Veja o grupo "Aplicações reais"
+em `revise-identidade-visual` como exemplo.
 
 Se o projeto tiver mais de um vídeo que mereça destaque em tela cheia (não
 só como thumbnail de mosaico), use `videosDestaque` no nível do projeto:
@@ -108,9 +108,7 @@ só como thumbnail de mosaico), use `videosDestaque` no nível do projeto:
 
 Cada item vira um bloco de vídeo em largura total, com reprodução automática,
 entre os textos do case e a seção "Material". Use isso para vídeos que
-merecem o mesmo destaque do vídeo principal do case, mas sem substituí-lo —
-veja `revise-seu-plano-institucional` como exemplo (vídeo institucional como
-`imagemPrincipal`, vídeo do Clube de Vantagens via `videosDestaque`).
+merecem o mesmo destaque do vídeo principal do case, mas sem substituí-lo.
 
 **Todo vídeo do site inicia automaticamente** (mudo, em loop) assim que a
 página carrega ou a peça entra na tela — não precisa configurar nada além do

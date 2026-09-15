@@ -148,42 +148,6 @@
     ]
   },
   {
-    "slug": "revise-seu-plano-institucional",
-    "titulo": "Revise Seu Plano — Institucional",
-    "tipo": "Profissional",
-    "cliente": "Revise Seu Plano",
-    "categorias": ["Comunicação Institucional", "Materiais Impressos", "Motion"],
-    "papel": "Design Gráfico / Produção de Vídeo",
-    "destaque": true,
-    "ordemDestaque": 5,
-    "thumbnail": "/projects/clube-vantagens-livreto/cartao-clube-vantagens.webp",
-    "imagemPrincipal": "/projects/clube-vantagens-livreto/video-institucional.mp4",
-    "contexto": "Vídeo institucional e livreto impresso para apresentar a Revise Seu Plano, o Portal do Cliente e o Clube de Vantagens, acompanhados de uma carteirinha física de acesso.",
-    "desenvolvimento": "Vídeo institucional de apresentação da marca, vídeo específico sobre o Clube de Vantagens, e peça impressa em formato livreto com carteirinha destacável para o cliente.",
-    "videosDestaque": [
-      {
-        "titulo": "Clube de Vantagens",
-        "descricao": "Vídeo institucional sobre o programa de pontos e benefícios da Revise Seu Plano.",
-        "src": "/projects/clube-vantagens-livreto/video-clube-vantagens.mp4"
-      }
-    ],
-    "grupos": [
-      {
-        "titulo": "Livreto Institucional",
-        "descricao": "Peça impressa entregue ao cliente, com carteirinha destacável de acesso ao Clube de Vantagens.",
-        "layout": "stack",
-        "itens": [
-          "/projects/clube-vantagens-livreto/livreto-01.jpeg",
-          "/projects/clube-vantagens-livreto/livreto-02.jpeg",
-          "/projects/clube-vantagens-livreto/livreto-03.jpeg",
-          "/projects/clube-vantagens-livreto/livreto-04.jpeg",
-          "/projects/clube-vantagens-livreto/livreto-05.jpeg",
-          "/projects/clube-vantagens-livreto/cartao-clube-vantagens.webp"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "revise-site-institucional",
     "titulo": "Revise Seu Plano — Site Institucional",
     "tipo": "Profissional",
@@ -203,8 +167,7 @@
     "cliente": "Revise Seu Plano",
     "categorias": ["Criativos para Redes Sociais", "Motion"],
     "papel": "Design Gráfico / Produção de Vídeo",
-    "destaque": true,
-    "ordemDestaque": 7,
+    "destaque": false,
     "thumbnail": "/projects/revise-seu-plano-social/capa.jpg",
     "imagemPrincipal": "/projects/revise-seu-plano-social/capa.jpg",
     "contexto": "Seleção de posts, carrosséis, criativos comerciais e vídeos para Reels desenvolvidos para a Revise Seu Plano, organizados por campanha/tema.",
@@ -288,6 +251,16 @@
         "titulo": "BigPoc",
         "descricao": "Vídeo para Reels divulgando o produto de um cliente parceiro e um cupom exclusivo para clientes da Revise Seu Plano.",
         "itens": ["/projects/campanha-bigpoc/bigpoc.mp4"]
+      },
+      {
+        "titulo": "Vídeo Institucional",
+        "descricao": "Vídeo institucional de apresentação da marca Revise Seu Plano.",
+        "itens": ["/projects/clube-vantagens-livreto/video-institucional.mp4"]
+      },
+      {
+        "titulo": "Clube de Vantagens",
+        "descricao": "Vídeo institucional sobre o programa de pontos e benefícios da Revise Seu Plano.",
+        "itens": ["/projects/clube-vantagens-livreto/video-clube-vantagens.mp4"]
       }
     ]
   },
@@ -298,12 +271,13 @@
     "cliente": "Revise Seu Plano",
     "categorias": ["Identidade Visual", "Branding", "Design Gráfico", "Direção de Arte"],
     "papel": "Designer Gráfico / Direção de Arte",
-    "destaque": false,
+    "destaque": true,
+    "ordemDestaque": 5,
     "thumbnail": "/projects/revise-identidade-visual/aplicacao-sinalizacao.jpg",
     "contexto": "A Revise Seu Plano passou por um momento de reposicionamento, deixando de ser vista apenas como corretora de planos de saúde para se apresentar como consultoria de proteção, saúde e cuidado contínuo. Essa mudança pediu uma identidade visual nova, capaz de acompanhar o novo momento da marca.",
     "desenvolvimento": "Idealizei e desenvolvi sozinho quatro caminhos conceituais para a nova identidade, cada um partindo de um símbolo e um significado diferente. A direção aprovada uniu duas ideias num traço só: a letra \"r\" de Revise e um símbolo de infinito, juntando reconhecimento de marca à ideia de cuidado contínuo, sem interrupção.",
-    "solucao": "A partir desse símbolo, construí o restante do sistema seguindo os mesmos princípios: curvas no lugar de ângulos, um traço único sem interrupções, o nome sempre em minúsculas e uma só faixa de azul como cor de marca. Esses princípios guiam o símbolo, o logotipo, o padrão gráfico e as aplicações em uniformes, embalagens e ambientes.",
-    "resultado": "A identidade foi aprovada e já está em uso em materiais reais da Revise, incluindo o livreto institucional entregue ao cliente e a carteirinha do Clube de Vantagens — peças que também aparecem completas no case Revise Seu Plano — Institucional.",
+    "solucao": "A partir desse símbolo, construí o restante do sistema seguindo os mesmos princípios: curvas no lugar de ângulos, um traço único sem interrupções, o nome sempre em minúsculas e uma só faixa de azul como cor de marca. Esses princípios guiam o símbolo, o logotipo, o padrão gráfico e as simulações de aplicação em sinalização e embalagem apresentadas na proposta.",
+    "resultado": "A identidade foi aprovada e está em uso na comunicação real da Revise, incluindo o folheto institucional entregue ao cliente e a carteirinha do Clube de Vantagens, apresentados a seguir como aplicações reais da marca.",
     "grupos": [
       {
         "titulo": "Exploração",
@@ -322,24 +296,24 @@
       },
       {
         "titulo": "Construção da identidade",
-        "descricao": "Símbolo, logotipo, padrão gráfico e primeiras aplicações construídos a partir dos mesmos princípios.",
-        "layout": "full",
-        "itens": ["/projects/revise-identidade-visual/construcao-identidade.jpg"]
-      },
-      {
-        "titulo": "Aplicações propostas",
-        "descricao": "Simulações de sinalização e embalagem apresentadas junto da proposta aprovada.",
+        "descricao": "Símbolo, logotipo, padrão gráfico e simulações de aplicação em sinalização e embalagem, construídos a partir dos mesmos princípios.",
         "itens": [
+          "/projects/revise-identidade-visual/construcao-identidade.jpg",
           "/projects/revise-identidade-visual/aplicacao-sinalizacao.jpg",
           "/projects/revise-identidade-visual/aplicacao-embalagem.jpg"
         ]
       },
       {
-        "titulo": "Aplicação real",
-        "descricao": "A mesma identidade já em uso na carteirinha e no livreto do Clube de Vantagens da Revise.",
+        "titulo": "Aplicações reais",
+        "descricao": "O folheto institucional e a carteirinha do Clube de Vantagens, já impressos e entregues com a identidade aprovada.",
+        "layout": "stack",
         "itens": [
-          "/projects/clube-vantagens-livreto/cartao-clube-vantagens.webp",
-          "/projects/clube-vantagens-livreto/livreto-01.jpeg"
+          "/projects/clube-vantagens-livreto/livreto-01.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-02.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-03.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-04.jpeg",
+          "/projects/clube-vantagens-livreto/livreto-05.jpeg",
+          "/projects/clube-vantagens-livreto/cartao-clube-vantagens.webp"
         ]
       }
     ]
@@ -419,8 +393,7 @@
     "cliente": "Projeto próprio",
     "categorias": ["Branding", "Identidade Visual"],
     "papel": "Fundador / Direção de Arte",
-    "destaque": true,
-    "ordemDestaque": 8,
+    "destaque": false,
     "thumbnail": "/projects/arkanjo-store/ig-DJup2SoPCD5-0.jpg",
     "imagemPrincipal": "/projects/arkanjo-store/ig-DJup2SoPCD5-0.jpg",
     "linkExterno": { "label": "Visitar a loja", "url": "https://arkanjostore.com.br" },

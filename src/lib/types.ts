@@ -13,6 +13,7 @@ export const CATEGORIAS = [
   "Branding",
   "Design Gráfico",
   "Motion",
+  "Digital",
   "Outros",
 ] as const;
 

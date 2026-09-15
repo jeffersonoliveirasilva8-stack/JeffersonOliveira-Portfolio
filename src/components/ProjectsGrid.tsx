@@ -4,24 +4,48 @@ import { useMemo, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import type { Categoria, Projeto } from "@/lib/types";
 
-function useCategoryFilter(projetos: Projeto[]) {
-  const [ativo, setAtivo] = useState<Categoria | "Todos">("Todos");
+const FILTROS = [
+  "Design Gráfico",
+  "Identidade Visual",
+  "Digital",
+  "UI/UX",
+  "Comunicação",
+] as const;
+type Filtro = (typeof FILTROS)[number];
 
-  const categorias = useMemo(() => {
-    const set = new Set<Categoria>();
-    projetos.forEach((p) => p.categorias.forEach((c) => set.add(c)));
-    return Array.from(set);
-  }, [projetos]);
+const CATEGORIA_PARA_FILTRO: Record<Categoria, Filtro> = {
+  "Criativos para Redes Sociais": "Comunicação",
+  "Comunicação Institucional": "Comunicação",
+  "Identidade Visual": "Identidade Visual",
+  "Materiais Impressos": "Design Gráfico",
+  "UI/UX": "UI/UX",
+  "Produto Digital": "Digital",
+  Website: "Digital",
+  "Comunicação de Evento": "Comunicação",
+  "Cobertura de Evento": "Comunicação",
+  Apresentação: "Design Gráfico",
+  Publicidade: "Comunicação",
+  Branding: "Identidade Visual",
+  "Design Gráfico": "Design Gráfico",
+  Motion: "Digital",
+  Digital: "Digital",
+  Outros: "Design Gráfico",
+};
+
+function useCategoryFilter(projetos: Projeto[]) {
+  const [ativo, setAtivo] = useState<Filtro | "Todos">("Todos");
 
   const filtrados = useMemo(
     () =>
       ativo === "Todos"
         ? projetos
-        : projetos.filter((p) => p.categorias.includes(ativo)),
+        : projetos.filter((p) =>
+            p.categorias.some((c) => CATEGORIA_PARA_FILTRO[c] === ativo)
+          ),
     [projetos, ativo]
   );
 
-  return { ativo, setAtivo, categorias, filtrados };
+  return { ativo, setAtivo, categorias: FILTROS, filtrados };
 }
 
 export default function ProjectsGrid({
@@ -91,8 +115,8 @@ export default function ProjectsGrid({
             Projetos Autorais
           </h2>
           <p className="text-sm text-muted mb-10 max-w-md">
-            Iniciativas próprias: repertório, direção criativa e capacidade de
-            construir um projeto do zero.
+            Projetos desenvolvidos por iniciativa própria, explorando
+            identidade visual, comunicação e produtos digitais.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10">
             {filtradosAutorais.map((p) => (

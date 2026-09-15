@@ -188,13 +188,13 @@
     "titulo": "Revise Seu Plano — Site Institucional",
     "tipo": "Profissional",
     "cliente": "Revise Seu Plano",
-    "categorias": ["Website", "UI/UX"],
-    "papel": "Direção de Arte e Design",
+    "categorias": ["UI/UX", "Digital", "Design Gráfico"],
+    "papel": "Design Gráfico / UI/UX",
     "destaque": true,
     "ordemDestaque": 6,
     "thumbnail": "/projects/revise-site-institucional/demo-site.mp4",
     "imagemPrincipal": "/projects/revise-site-institucional/demo-site.mp4",
-    "contexto": "Site institucional da Revise Seu Plano, desenvolvido em parceria com a equipe da empresa. Apresentado aqui por meio de uma gravação de tela em funcionamento."
+    "contexto": "Site institucional da Revise Seu Plano, desenvolvido em parceria com a equipe da empresa, com foco na apresentação da marca, serviços e canais de relacionamento com o cliente."
   },
   {
     "slug": "revise-seu-plano-social",
@@ -226,16 +226,8 @@
         "itens": [
           "/projects/campanha-amil-platinum/feed-01.png",
           "/projects/campanha-amil-platinum/feed-02.png",
-          "/projects/campanha-amil-platinum/feed-03.png",
-          "/projects/campanha-amil-platinum/feed-04.png",
-          "/projects/campanha-amil-platinum/feed-05.png",
-          "/projects/campanha-amil-platinum/feed-06.png",
           "/projects/campanha-amil-platinum/stories-01.png",
-          "/projects/campanha-amil-platinum/stories-02.png",
-          "/projects/campanha-amil-platinum/stories-03.png",
-          "/projects/campanha-amil-platinum/stories-04.png",
-          "/projects/campanha-amil-platinum/stories-05.png",
-          "/projects/campanha-amil-platinum/stories-06.png"
+          "/projects/campanha-amil-platinum/stories-02.png"
         ]
       },
       {
@@ -245,12 +237,6 @@
           "/projects/porto-saude-linha-bairros/criativo-01.png",
           "/projects/porto-saude-linha-bairros/criativo-02.png",
           "/projects/porto-saude-linha-bairros/tabela-alphaville.png",
-          "/projects/porto-saude-linha-bairros/tabela-centro.png",
-          "/projects/porto-saude-linha-bairros/tabela-lapa.png",
-          "/projects/porto-saude-linha-bairros/tabela-moema.png",
-          "/projects/porto-saude-linha-bairros/tabela-morumbi.png",
-          "/projects/porto-saude-linha-bairros/tabela-morumbi-2.png",
-          "/projects/porto-saude-linha-bairros/tabela-osasco.png",
           "/projects/porto-saude-linha-bairros/tabela-paulista.png",
           "/projects/porto-saude-linha-bairros/porto-servico.mp4"
         ]

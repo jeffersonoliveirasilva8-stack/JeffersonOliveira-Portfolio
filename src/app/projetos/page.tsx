@@ -13,7 +13,7 @@ export default function ProjetosPage() {
     <div className="mx-auto max-w-6xl px-6 md:px-10 pt-16 pb-28">
       <h1 className="font-serif text-4xl mb-4">Projetos</h1>
       <p className="text-muted max-w-xl mb-14">
-        Uma seleção de trabalhos completos, do contexto até a solução aplicada.
+        Projetos de design gráfico, comunicação e experiências digitais desenvolvidos para diferentes marcas e negócios.
       </p>
       <ProjectsGrid profissionais={profissionais} autorais={autorais} />
     </div>
